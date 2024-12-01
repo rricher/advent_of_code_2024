@@ -11,12 +11,7 @@ This time, you'll need to figure out exactly how often each number from the left
 
 Here are the same example lists again:
 
-3   4
-4   3
-2   5
-1   3
-3   9
-3   3
+~test input~
 
 For these example lists, here is the process of finding the similarity score:
 
