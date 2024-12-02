@@ -55,6 +55,21 @@ def main() -> None:
                 prev = level
             level += 1
 
+        #         if prev == 0:
+        #         if increase:
+        #             diff = report[level + 1] - report[level]
+        #         else:
+        #             diff = report[level] - report[level + 1]
+        #     if diff > 0 and diff < 4:
+        #         report.pop(prev)
+        #     else:
+        #         report.pop(level)
+        #     prev = 0
+        #     level = 1
+        # else:
+        #     prev = level
+        #     level += 1
+
         if not unsafe:
             safe += 1
             if prnt:
