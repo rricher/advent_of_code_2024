@@ -1,12 +1,5 @@
 import re
-
-
-def fileinput():
-    corrupted = []
-    with open("./input.txt", "r") as file:
-        for line in file:
-            corrupted.append(line)
-    return corrupted
+from day_4.read_file import get_input
 
 
 def uncorrupt(corrupted):
@@ -28,7 +21,7 @@ def uncorrupt(corrupted):
 
 
 def main() -> None:
-    corrupted = fileinput()
+    corrupted = get_input()
     uncorrupt(corrupted)
 
 
