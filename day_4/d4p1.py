@@ -1,3 +1,7 @@
+import sys
+
+sys.path.insert(0, "C:/Users/ryan/Projects/advent_of_code")
+
 from read_file import get_input
 
 

@@ -1,5 +1,5 @@
 import re
-from day_4.read_file import get_input
+from read_file import get_input
 
 
 def uncorrupt(corrupted):
